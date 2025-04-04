@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#star {
+    height: 33px;
+    width: 33px;
+}
+
+.top-color {
+    min-height: 30vh;
+}
+
+.bottom-color {
+    min-height: 100vh;
+}
+
+.background-colors {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-colors .top-color {
+    width: 100%;
+    flex-basis: 34%;
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+}
+
+.background-colors .bottom-color {
+    width: 100%;
+    flex-basis: 66%;
+    background-color: #f9f0ff;
+}
+
+#card {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    margin: 0 0;
+    background-color: white;
+    border-radius: 14px;
+    padding: 40px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-right: 20px;
+    font-family: "Work sans";
+    font-weight: 600;
+    font-size: 18px;
+}
+
+button {
+    background-image: url("./assets/images/icon-plus.svg");
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.header-section {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-left: 15px;
+    font-family: "Work sans";
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.line {
+    margin-top: 0px;
+    border-top: 0.9px solid rgba(128, 128, 128, 0.4);
+    margin-bottom: 25px;
+}
+
+.header-plus-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.roll-out-text {
+    line-height: 1.5;
+    width: 90%;
+    text-align: justify;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    font-family: "Work sans";
+    font-size: 15px;
+}
+
+#rollout-text1,
+#rollout-text2,
+#rollout-text3,
+#rollout-text4 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+#rollout-text1.expanded,
+#rollout-text2.expanded,
+#rollout-text3.expanded,
+#rollout-text4.expanded  {
+    max-height: 1000px;
+}
+
+#rollout-text4 {
+    margin-bottom: 0;
+}
+
