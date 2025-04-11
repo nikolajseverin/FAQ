@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.itu.dk/nsol/frontend-mentor-challenges-FAQ
+- Live Site URL: https://nikolajseverin.github.io/FAQ/
 
 ## My process
 
