@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.itu.dk/nsol/frontend-mentor-challenges-FAQ
+- Solution URL: https://github.com/nikolajseverin/FAQ
 - Live Site URL: https://nikolajseverin.github.io/FAQ/
 
 ## My process
